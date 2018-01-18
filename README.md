@@ -3,7 +3,7 @@ Docker image for running ruby with nodejs (in example ruby on rails)
 
 ## Example dockerfile
 ```
-from bond/ruby-node
+FROM bond/ruby-node
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/
